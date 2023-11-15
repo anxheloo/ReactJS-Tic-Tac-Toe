@@ -1,0 +1,30 @@
+.game-board {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 4rem 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+.div-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.div-col {
+  margin: 10px;
+}
+
+.game-board button {
+  width: 8rem;
+  height: 8rem;
+  border: none;
+  background: #aca788;
+  color: #3f3b00;
+  font-size: 5rem;
+  cursor: pointer;
+  font-family: "Caprasimo", cursive;
+  padding: 1rem;
+}
